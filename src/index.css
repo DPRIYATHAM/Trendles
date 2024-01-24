@@ -1,0 +1,35 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-padding-block-start: 3rem;
+  max-width: 1600px;
+  margin-inline: auto;
+  overflow-y: scroll; /* Allow scrolling */
+  scrollbar-width: none; /* Firefox */
+}
+
+html::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  min-width: 0;
+}
+
+body {
+  font-family: var(--font-stack);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
