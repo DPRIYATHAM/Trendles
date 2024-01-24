@@ -41,7 +41,7 @@ const Navbar = () => {
     return () => window.removeEventListener('resize', handleResize);
   }, [isWidhtLess, windowWidth]); 
   return ( isWidhtLess ? (
-  <div className='flex items-start justify-between px-10 py-6'>
+  <div className='flex items-start justify-between px-2 py-6'>
     <Image height={100} width={100} AssestIcon={Asset1} />
     <div className="">
       <MenuIcon sx={{color:'white',fontSize:'2.5rem',cursor:'pointer'}} />

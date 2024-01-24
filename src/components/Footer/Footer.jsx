@@ -12,7 +12,7 @@ import Discord from '../../assets/SVG/discord.svg'
 const Footer = () => {
   return (
     <div className='flex flex-col gap-5 pt-10 font-semibold text-white bg-black bg-opacity-30'>
-      <div className="flex flex-row flex-wrap items-center justify-around">
+      <div className="flex flex-col flex-wrap items-center justify-around gap-5 md:gap-0 md:flex-row">
         <div className="flex flex-col items-center gap-2">
           <div className='text-2xl'>Contact Us</div>
           <div className=''><PhoneEnabledIcon /> +91-82473-40743</div>
