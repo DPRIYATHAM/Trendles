@@ -2,9 +2,11 @@ module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
     extend: {
+      width: {
+        'custom': '20rem', 
+      },
       fontFamily: {
-        'dharma': ['"Dharma Gothic E"','sans-serif'],
-        'Poppins':['Poppins ']
+        'Poppins':['Poppins']
       },
       rotate: {
         '24': '24deg',
@@ -12,7 +14,7 @@ module.exports = {
       spacing: {
         '1': '0.25rem',
         '2': '0.5rem',
-      }
+      },
     },
   },
   plugins: [
