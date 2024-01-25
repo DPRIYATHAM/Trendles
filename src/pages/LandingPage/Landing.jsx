@@ -11,10 +11,10 @@ const Landing = () => {
           <IconDisplay />
         </div>
       </div>
-      <div className='flex justify-center text-center md:justify-start md:text-start'>
+      <div className='flex items-center justify-center text-center md:justify-start md:text-start'>
         <Content Title={'WE ARE ALL ABOUT SOCIAL'} content={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi arcu at facilisi nisi posuere justo. Risus interdum neque vivamus pellentesque. Blandit cursus massa eu quam. Adipiscing a phasellus blandit elementum.'} />
       </div>
-      <div className="flex justify-center text-center md:text-start md:justify-end">
+      <div className="flex items-center justify-center text-center md:text-start md:justify-end">
         <Content Title={'WE ARE ALL ABOUT SOCIAL'} content={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi arcu at facilisi nisi posuere justo. Risus interdum neque vivamus pellentesque. Blandit cursus massa eu quam. Adipiscing a phasellus blandit elementum.'} />
       </div>
     </div>
