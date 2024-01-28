@@ -6,7 +6,10 @@ module.exports = {
         'custom': '20rem', 
       },
       fontFamily: {
-        'Poppins':['Poppins']
+        'Poppins':['Poppins'],
+        'Roboto': ['Roboto Condensed'],
+        'Bebas': ['Bebas Neue'],
+        'Raleway': ['Raleway'],
       },
       rotate: {
         '24': '24deg',
