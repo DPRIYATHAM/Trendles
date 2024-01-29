@@ -9,11 +9,13 @@ function App() {
   return (
     <div className='App font-Poppins'>
         <Navbar />
-      <Routes>
-        <Route path="/" element={<Landing />} />
-        <Route path='/Blog' element={<Blog />} />
-      </Routes>
-      <Footer />
+        <div className="main-content">
+          <Routes>
+            <Route path="/" element={<Landing />} />
+            <Route path='/Blog' element={<Blog />} />
+          </Routes>
+        </div> 
+        <Footer />
     </div>
   );
 }
