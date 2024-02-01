@@ -17,12 +17,12 @@ const ImageSlideShow = ({ slides }) => {
   return (
     <div className="slider">
       <div className="slides">
-      <input type="radio" name={name} id={`${name}-1`} checked={counter === 1} />
-      <input type="radio" name={name} id={`${name}-2`} checked={counter === 2} />
-      <input type="radio" name={name} id={`${name}-3`} checked={counter === 3} />
-      <input type="radio" name={name} id={`${name}-4`} checked={counter === 4} />
+        <input type="radio" name={name} id={`${name}-1`} checked={counter === 1} onChange={() => setCounter(1)} />
+        <input type="radio" name={name} id={`${name}-2`} checked={counter === 2} onChange={() => setCounter(2)} />
+        <input type="radio" name={name} id={`${name}-3`} checked={counter === 3} onChange={() => setCounter(3)} />
+        <input type="radio" name={name} id={`${name}-4`} checked={counter === 4} onChange={() => setCounter(4)} />
         {slides.map((image, index) => (
-          <div className={`slide ${index === 0 ? 'first' : ''}`}>
+          <div key={index} className={`slide ${index === 0 ? 'first' : ''}`}>
             <img src={image} alt="" />
           </div>
         ))}
