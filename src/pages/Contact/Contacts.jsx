@@ -6,7 +6,6 @@ import John from '../../assets/TrendlesImages/Image4/John-min.jpeg'
 
 const Contacts = () => {
    
-
     return (
         <div className='flex flex-col gap-16 mb-10 text-white'>
             <h1 className='self-center text-5xl font-bold font-Rubik'>Patrons</h1>
