@@ -2,6 +2,8 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url(https://db.onlinewebfonts.com/c/c903197e73250aa294b2a8b8042f5c9c?family=Dharma+Gothic+E+W01+Regular);
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 html {
   box-sizing: border-box;

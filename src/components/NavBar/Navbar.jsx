@@ -48,7 +48,7 @@ const Navbar = () => {
   </div>
   ):(
   <div className='flex items-start justify-between px-10 py-6'>
-      <Image height={100} width={100}  AssestIcon={Asset1}  />
+      <Image height={120} width={120}  AssestIcon={Asset1}  />
       <ul className='flex items-center text-2xl font-semibold text-white gap-14'>
         <li className={YellowEffect}><Link to={'/magazine'}>Magazine</Link></li>
         <li className={YellowEffect}><Link to={'/blog'}>Blog</Link></li>
