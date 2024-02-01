@@ -7,7 +7,6 @@ module.exports = {
       },
       fontFamily: {
         'Poppins':['Poppins'],
-        'dhrama':['Dharma Gothic E','sans-serif'],
         'Rubik':['Rubik','sans-serif']
       },
       rotate: {

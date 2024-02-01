@@ -1,8 +1,8 @@
 import Image from '../Image/Image'
-import Literaryicon from '../../assets/svgoptimizer/Literary-min.svg'
-import Blogicon from '../../assets/svgoptimizer/Blog-min.svg'
-import Twittericon from '../../assets/svgoptimizer/twitter-min.svg'
-import Videoicon from '../../assets/svgoptimizer/video-min.svg'
+import Literaryicon from '../../assets/Ping/lit.png'
+import Blogicon from '../../assets/Ping/blog.png'
+import Twittericon from '../../assets/Ping/twitter.png'
+import Videoicon from '../../assets/Ping/video.png'
 import InstraIcon from '../../assets/Ping/Instragram.png'
 import Trendles2 from '../../assets/png-for-dark-mode/Trendles-dark-text-alt.png'
 import { useEffect, useState } from 'react'
@@ -31,7 +31,7 @@ const IconDisplay = () => {
             <Image AssestIcon={Trendles2} height={(isWidhtLess)?150:200} width={(isWidhtLess)?150:200} subRoute='/'  className={'self-center pt-5 pl-2'} />
         </div>
         <div className="flex flex-row justify-between h-28 md:h-40 w-custom md:w-96">
-            <Image AssestIcon={Twittericon} height={(isWidhtLess)?80:120} width={(isWidhtLess)?100:120} subRoute={'https://twitter.com/'} className={'flex w-36  md:w-48 self-end md:self-center justify-end -rotate-24'} />
+            <Image AssestIcon={Twittericon} height={(isWidhtLess)?60:80} width={(isWidhtLess)?70:80} subRoute={'https://twitter.com/'} className={'flex w-36  md:w-48 self-end md:self-center justify-end -rotate-24'} />
             <Image AssestIcon={InstraIcon} height={(isWidhtLess)?60:70} width={(isWidhtLess)?60:70} subRoute={'https://www.instagram.com/trendles_iiitk?igsh=M2l6bG02cDFzdmNp'} className={'flex  self-start  rotate-45'} />
         </div>
 
