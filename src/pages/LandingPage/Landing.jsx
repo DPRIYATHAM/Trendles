@@ -1,17 +1,14 @@
 import React from 'react'
 import Content from '../../components/Content/Content'
 import IconDisplay from '../../components/IconDisplay/IconDisplay'
-// import Trendles1 from '../../assets/png-for-dark-mode/trendles-text.png'
-// import Trendles2 from '../../assets/png-for-dark-mode/Trendles-dark-text-alt.png'
-// import Trendles3 from '../../assets/png-for-dark-mode/Trendles-Dark-text.png'
-// import Image from '../../components/Image/Image'
+import I1  from '../../assets/TrendlesImages/Image1/20220407_184803-02 - KRISHNA SASHANK ALLIMPALLI -IIITK.jpeg'
+import I2  from '../../assets/TrendlesImages/Image1/IMG-20220330-WA0008 - PUTTA SRUJAN -IIITK.jpg'
+import I3  from '../../assets/TrendlesImages/Image1/IMG_20190922_182619-01 - ANSHU -2019BCSIIITK.jpeg'
+import I4  from '../../assets/TrendlesImages/Image1/IMG_20220531_171112 (1) - YASHWANTRAO SHESHKAR -IIITK.jpg'
 import ImageSlideShow from '../../components/ImagesSlideShow/ImageSlideShow'
 
 const slides = [
-  "https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg",
-  "https://images.unsplash.com/photo-1509043759401-136742328bb3?ixlib=rb-4.0.3",
-  "https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630",
-  "https://media.istockphoto.com/id/1322277517/photo/wild-grass-in-the-mountains-at-sunset.jpg?s=612x612&w=0&k=20&c=6mItwwFFGqKNKEAzv0mv6TaxhLN3zSE43bWmFN--J5w="
+  I1,I2,I3,I4
 ];
 
 const Landing = () => {

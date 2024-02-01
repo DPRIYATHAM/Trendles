@@ -3,12 +3,16 @@
     height: 200px;
     border-radius: 10px;
     overflow: hidden;
+    position: relative;
 }
 
 .slides {
     width: 500%;
     height: 100%;
     display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .slides input {
@@ -23,32 +27,9 @@
 .slide img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
-/*css for manual slide navigation*/
-
-.navigation-manual{
-    position: absolute;
-    width: 350px;
-    margin-top: -30px;
-    display: flex;
-    justify-content: center;
-}
-
-.manual-btn{
-    border: 2px solid #40D3DC;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-}
-
-.manual-btn:not(:last-child){
-    margin-right: 30px;
-}
-.manual-btn:hover{
-    background: #40D3DC;
-}
 
 [id$='-1']:checked ~ .first{
     margin-left: 0;
@@ -65,14 +46,15 @@
 [id$='-4']:checked ~ .first{
     margin-left: -60%;
 }
-/*css for automatic navigation*/
+
 
 .navigation-auto{
     position: absolute;
     display: flex;
     width: 350px;
     justify-content: center;
-    margin-top: 170px;
+    bottom: 10px;
+    
 }
 
 .navigation-auto div{
@@ -102,21 +84,8 @@
     background: #40D3DC;
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
     .slider {
-        width: 250px;
-        height: 135px;
+        width: 320px;
     }
-
-    .navigation-manual, .navigation-auto {
-        width: 250px;
-    }
-
-    .navigation-auto {
-        margin-top: 115px;
-    }
-
-    .manual-btn:not(:last-child), .navigation-auto div:not(:last-child) {
-        margin-right: 20px;
-    }
-} */
+}
