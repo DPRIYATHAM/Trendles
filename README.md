@@ -7,3 +7,5 @@ Sub Clubs:
 3. Design Club
 4. Litsoc
 5. Debate Club
+6. Social Impact Club
+7. Astronomy Club
